@@ -1,0 +1,8 @@
+mss
+opencv-python
+pyautogui
+stockfish
+joblib
+python-chess
+numpy
+
