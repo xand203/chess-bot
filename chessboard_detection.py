@@ -17,7 +17,7 @@ class ChessBoard_detector:
 
         board = fen.split('/')
 
-        path = 'dataset/data'
+        path = 'train/data'
         piece_path = os.path.join(path,piece_set)
         full_path = os.path.join(path,piece_set,theme)
 
