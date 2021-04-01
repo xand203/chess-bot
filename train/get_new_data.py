@@ -8,7 +8,7 @@ if __name__ == "__main__":
     driver = webdriver.Firefox()
     board_detector = ChessBoard_detector()
     while True:
-        driver.get(f"https://lichess.org/editor")
+        driver.get("https://lichess.org/editor")
         theme = input("Board theme: ")
         piece_set = input("Piece set: ")
         for x in range(11):

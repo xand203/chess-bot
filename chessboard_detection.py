@@ -21,8 +21,7 @@ class ChessBoard_detector:
         piece_path = os.path.join(path,piece_set)
         full_path = os.path.join(path,piece_set,theme)
 
-        found,board_img = self.find_chessboard()
-        if not found:return False
+        board_img = self.get_chessboard()
 
         if piece_set not in os.listdir(path):
             os.mkdir(piece_path)

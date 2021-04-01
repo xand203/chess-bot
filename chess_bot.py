@@ -120,6 +120,9 @@ class Chess_bot:
 
 
     def execute_bestMove(self,borders):
+        if not self.bot_turn:
+            self.bot_turn = True
+            return
         self.stockfish.set_fen_position(self.board.fen())
 
         #Get the best move from current position on a time constraint

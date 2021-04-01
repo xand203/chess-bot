@@ -59,7 +59,7 @@ def pawn_on_promotion_square(pc, pr):
 def generate():
         board = [[" " for x in range(8)] for y in range(8)]
 
-        piece_amount_white,piece_amount_black = random.randint(17, 30), random.randint(17, 30)
+        piece_amount_white,piece_amount_black = random.randint(18, 30), random.randint(18, 30)
         board = place_kings(board)
         board = populate_board(board, piece_amount_white, piece_amount_black)
         return fen_from_board(board)
