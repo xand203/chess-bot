@@ -8,7 +8,7 @@ instead of using html elements. With this method, website changes won't affect t
 - [General info](#general-info)
 - [Setup](#setup)
 - [Train Model](#train-model)
-- [Extra Notes](#extra-nodes)
+- [Extra Notes](#extra-notes)
 
 ## General info
 
@@ -47,7 +47,9 @@ $ python3 main.py
 
 - Install jupyter and sklearn using pip and run the notebook in the train directory.
 
-### Extra Notes
+## Extra Notes
 
 - Don't move the mouse when bot is playing.
 - Chessboard should be easily recognized on screen.
+
+**Feel free to open an issue if something is not working properly.**
